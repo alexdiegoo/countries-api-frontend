@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;600;800&display=swap");
+
+:root {
+  --color-text: hsl(200, 15%, 8%);
+  --color-background: hsl(0, 0%, 98%);
+  --color-input: hsl(0, 0%, 100%);
+  --color-header: hsl(0, 0%, 100%);
+}
+
+.dark {
+  --color-text: hsl(0, 0%, 100%);
+  --color-background: hsl(207, 26%, 17%);
+  --color-header: hsl(209, 23%, 22%);
+  --color-input: hsl(209, 23%, 22%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.app {
+  width: 100%;
+  min-height: 100vh;
+  background: var(--color-background);
+
+  transition: 0.2s;
+}
+
+.app--container {
+  max-width: 1440px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.app--header {
+  width: 100%;
+  height: 90px;
+  padding: 20px 0;
+
+  background: var(--color-header);
+  border-bottom: 3px solid rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: var(--color-text);
+}
+
+.app--darkmode span {
+  font-weight: 800;
+  font-size: 16px;
+  margin-left: 6px;
+}
+
+.app--darkmode .icon {
+  transform: rotate(160deg);
+  cursor: pointer;
+}
+
+.app--darkmode span,
+.icon {
+  color: var(--color-text);
+  opacity: 0.7;
+}
+
+.app-inputs {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card--grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(300px, 1fr));
+  margin-top: 40px;
+  gap: 15px;
+}

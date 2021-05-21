@@ -1,0 +1,40 @@
+.card {
+  width: 270px;
+  border-radius: 5px;
+  overflow: hidden;
+  background-color: var(--color-header);
+  box-shadow: 0px 1px 6px 0px rgba(0, 0, 0, 0.2);
+
+  margin-bottom: 40px;
+  cursor: pointer;
+}
+
+.card--img {
+  width: 100%;
+}
+
+img {
+  width: 100%;
+}
+
+.card--info {
+  padding: 20px;
+}
+.card--info ul {
+  list-style-type: none;
+  margin-top: 10px;
+}
+
+.card--info h3 {
+  color: var(--color-text);
+}
+
+.card--info li {
+  color: var(--color-text);
+  opacity: 0.7;
+  font-weight: bold;
+}
+
+.card--info li span {
+  font-weight: normal;
+}
