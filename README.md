@@ -2,6 +2,8 @@
 
 Solução do <a href="https://www.frontendmentor.io/challenges/rest-countries-api-with-color-theme-switcher-5cacc469fec04111f7b848ca">desafio</a> Frontend Mentor.
 
+## Demo: <p><a href="https://85t6k.csb.app/">clique aqui</a> para testar.</p>
+
 <img src="./.github/Screenshot_1.png" />
 <img src="./.github/Screenshot_2.png" />
 <img src="./.github/gif.gif" />
